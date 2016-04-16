@@ -1,4 +1,4 @@
-![ScreenShot](https://github.com/savanajs/literaljs/blob/master/logo.jpg)
+![ScreenShot](https://github.com/savanajs/literaljs/blob/master/capa.jpg)
 
 # LiteralJS
 **Object orientation in the most classic way JavaScript**
