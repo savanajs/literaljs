@@ -28,8 +28,7 @@ var UserClass = literal.createClass([], function(){
 ### Object literal output ###
 
 The literal object contained in the variable **UserClass**
-```
-#!javascript
+```javascript
 {
     name: 'John Smith',
     email: 'john@email.com',
@@ -47,8 +46,7 @@ The literal.createClass actually creates a literal object to its use in the scop
 
 The installation of this framework is very simple, just you need to import the file "**literal.min.js**" in your **<head>** or the end of the **</ body>** to start using.
 
-```
-#!html
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -82,8 +80,7 @@ If you think classes to be inherited passed as array "[]". If you do not think c
 By consensus and code pattern we will start our classes always like this:
 **NameclasseClass**
 
-```
-#!javascript
+```javascript
 var UserClass = literal.createClass([], function(){
 
 });
@@ -94,8 +91,7 @@ Constructor is a method called as soon as a new object instance is created.
 
 The **args** get the parameters passed by New instance create
 
-```
-#!javascript
+```javascript
 var UserClass = literal.createClass([], function(){
 
     this.construct = function(args){
@@ -115,8 +111,7 @@ When using this to create an attribute or method, automatically we are saying th
 
 We will use **"_" + variable** in **private attributes** are by default organization and standard code.
 
-```
-#!javascript
+```javascript
 var MammalClass = literal.createClass([], function(){
 
     // this leaves the public attribute
@@ -144,8 +139,7 @@ alert(mammal._showEmail()); // Undefined method
 ### Inheritance ###
 It is the mechanism by which a class (subclass) can extend another class (superclass), taking advantage of their behaviors (methods) and possible variables (attributes).
 
-```
-#!javascript
+```javascript
 var MammalClass = literal.createClass([], function(){
 
 	this.name = null;
@@ -195,8 +189,7 @@ alert(pearson.showName());
 ### Polymorphism ###
 It is the principle by which two or more classes derived from a single superclass may rely on methods that have the same identification (signature) but different behaviors, specialized for each class.
 
-```
-#!javascript
+```javascript
 var MammalClass = literal.createClass([], function() {
     this.speak = function() {
         return "Speaking";
@@ -227,8 +220,7 @@ alert(dog.speak()); // Auauauauau
 ### Interface ###
 It is a contract between the class and the outside world. When a class implements an interface, it is committed to providing the behavior published by the interface
 
-```
-#!javascript
+```javascript
 var VehicleInterface = literal.createInterface([], function() {
 
     // Place your methodos within this.run to call automatically
@@ -250,8 +242,7 @@ var car = CarClass.createNew();
 ### Static Class ###
 It is used to define a method or attribute in a class is static. This means that method / attribute belongs to the class rather than to an instance of it and, therefore, can be accessed without instantiate a new object.
 
-```
-#!javascript
+```javascript
 var mammal = literal.createStaticClass([], function() {
     this.speak = function() {
         return "Speaking";
@@ -265,8 +256,7 @@ alert(mammal.speak()); // Speaking
 ### Abstract Class ###
 Is the ability to concentrate on the essential aspects of any context, ignoring minor features or accidental. In object-oriented modeling, a class is an abstraction of existing entities in the software domain system
 
-```
-#!javascript
+```javascript
 var MammalClass = literal.createAbstractClass([], function() {
     this.gender = "Male";
 });
@@ -293,8 +283,7 @@ var hercules = AnimalClass.createNew();
 ### Getters and Setters ###
 Create up getters and setters for all properties of a class. The advantage of using getters and setters is the possibility to validate or modify data when using this pattern.
 
-```
-#!javascript
+```javascript
 var PersonClass = literal.createClass([],function() {
 
     this.name = null;
@@ -357,14 +346,12 @@ The createNew features over a function, return the reference, an arrow pointing 
 
 **With params**
 
-```
-#!javascript
+```javascript
 var nameclass = nameClass.createNew({name:"John Smith", email:"john@email.com"});
 ```
 **Without params**
 
-```
-#!javascript
+```javascript
 var nameclass = nameClass.createNew();
 ```
 
@@ -374,8 +361,7 @@ var nameclass = nameClass.createNew();
 
 The correct way to use the classes in object orientation is separalas for files and to include it as they are being used in your scope, you would then have to iserir each class file in the head. See the example:
 
-```
-#!html
+```html
 <head>
   <title>Literal JS</title>
   <meta name="description" content="">
@@ -393,8 +379,7 @@ To facilitate inclusion, then we will create only a file called (**requireScopeU
 
 To organize our inclusion the name of the file that begin like this: "**RequireScope**NameFile.js"
 
-```
-#!html
+```html
 <head>
   <title>Literal JS</title>
   <meta name="description" content="">
@@ -407,8 +392,7 @@ To organize our inclusion the name of the file that begin like this: "**RequireS
 
 **requireScopeUser.js**
 
-```
-#!javascript
+```javascript
 literal.requireScope(
 	[
 		'MammalClass.js', // 1º file of loaded
@@ -421,8 +405,7 @@ literal.requireScope(
 
 At the end of the files will be included in your head at runtime
 
-```
-#!html
+```html
 <head>
   <title>Literal JS</title>
   <meta name="description" content="">
