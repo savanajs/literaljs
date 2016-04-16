@@ -1,3 +1,5 @@
+![ScreenShot](https://github.com/savanajs/literaljs/logo.jpg)
+
 # LiteralJS
 **Object orientation in the most classic way JavaScript**
 
