@@ -8,8 +8,7 @@ The framework works so return literal objects so a class is created and implemen
 
 ### Create Class ###
 
-```
-javascript
+```javascript
 var UserClass = literal.createClass([], function(){
 
     this.name = 'John Smith',
