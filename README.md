@@ -1,6 +1,6 @@
 ![ScreenShot](https://github.com/savanajs/literaljs/blob/master/capa.jpg)
 
-# LiteralJS
+# {LITERAL:JS}
 **Object orientation in the most classic way JavaScript**
 
 Below is a practical way, how to use the framework and its features of a way of letting your Javascript-oriented and organized way of classical objects.
