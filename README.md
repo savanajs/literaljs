@@ -66,7 +66,7 @@ The installation of this framework is very simple, just you need to import the f
 * Chrome
 * Firefox
 * Safari
-* IE (8,9,10,11 and Edge)
+* IE8+
 
 ## Download ##
 ### **Very light and easy to use** ###
