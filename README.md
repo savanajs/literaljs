@@ -70,7 +70,7 @@ The installation of this framework is very simple, just you need to import the f
 
 ## Download ##
 ### **Very light and easy to use** ###
-[Click here](https://github.com/savanajs/literaljs/archive/master.zip) to download the framework. Only **1.14KB** (literal.min.js)
+[Click here](https://github.com/savanajs/literaljs/archive/master.zip) to download the framework. Only **1.14KB** (Minified)
 
 # Use #
 
