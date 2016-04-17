@@ -8,7 +8,7 @@ Below is a practical way, how to use the framework and its features of a way of 
 ## How it works? ##
 The framework works so return literal objects so a class is created and implemented by methods attributes. The example below shows this operation.
 
-### Create Class ###
+### Create a Class ###
 
 ```javascript
 var UserClass = literal.createClass([], function(){
