@@ -179,8 +179,8 @@ var PearsonClass = literal.createClass([MammalClass, AnimalClass], function(){
     
 });
 
-var mammal = MammalClass.createNew({name:"Rafael", email:"rafael@stamonica.org"});
-var pearson = PearsonClass.createNew({name:"Rafael2", email:"rafael2@stamonica.org"});
+var mammal = MammalClass.createNew({name:"John Smith", email:"johnsmith@email.com"});
+var pearson = PearsonClass.createNew({name:"Steve Holmes", email:"steve@email.com"});
 
 // console.log(mammal);
 // console.log(pearson);
