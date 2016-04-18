@@ -361,7 +361,7 @@ var nameclass = nameClass.createNew();
 
 ### Require Scope ###
 
-The correct way to use the classes in object orientation is separalas for files and to include it as they are being used in your scope, you would then have to insert each class file in the head. See the example:
+The correct way to use the classes in object orientation is separate them for files and to include it as they are being used in your scope, you would then have to insert each class file in the head. See the example:
 
 ```html
 <head>
