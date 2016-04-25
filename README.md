@@ -1,5 +1,3 @@
-![ScreenShot](https://github.com/savanajs/literaljs/blob/master/assets/capa.jpg)
-
 # {LITERAL:JS}
 **Object orientation in the most classic way JavaScript**
 
